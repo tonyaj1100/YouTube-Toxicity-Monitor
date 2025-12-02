@@ -8,9 +8,9 @@ from urllib.parse import urlparse, parse_qs
 
 # --- CONFIGURATION ---
 # ⚠️ SECURITY WARNING: Never share these keys publicly in a real project.
-YOUTUBE_API_KEY = "AIzaSyB22fB6PT-lLDupWjltNx1ry6SvYDfJiBA"
-SUPABASE_URL = "https://lgxkgiidxdbzbpziilag.supabase.co"
-SUPABASE_KEY = "sb_publishable_poUMZXO1gb5Guk1eQ2SnLw_tbZgef0f" 
+YOUTUBE_API_KEY = "YOUR_KEY_HERE"
+SUPABASE_URL = "hYOUR_URL_HERE"
+SUPABASE_KEY = "YOUR_KEY_HERE" 
 
 # --- SETUP ---
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
