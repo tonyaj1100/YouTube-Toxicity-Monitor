@@ -27,10 +27,13 @@
 ## 💻 The Code Logic
 ![Python Code](python_script.png)
 
+## 🚨 The Real-Time Alert (Slack)
+![Slack Alert](slack_alert.png)
+*When toxicity spikes, the system instantly triggers a formatted alert with the video details and risk score.*
+
 ## 📸 The Dashboards
 ![Dashboard](Dashboard1_youtube_project.png)
 ![Dashboard](Dashboard2_youtube_project.png)
-![Dashboard](Dashboard3_youtube_project.png)
 
 ## 💡 Key Insight
 **"The Toxicity Lag":** My analysis found that views often spike 2-3 hours *before* the negative sentiment floods in. This tool catches that leading edge.
