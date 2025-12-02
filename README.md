@@ -4,7 +4,7 @@
 **Solution:** A real-time "Threat Monitor" that uses AI to detect hate speech spikes and alerts moderators instantly.
 
 ## 📸 The Command Center
-![Dashboard](dashboard_main.jpg)
+![Dashboard](Dashboard_youtube_project.png)
 *Live Power BI Dashboard detecting toxic content and displaying dynamic thumbnails.*
 
 ## 🚀 How It Works (The Architecture)
@@ -21,11 +21,16 @@
 * **Visualization:** Microsoft Power BI (DAX, UI Design)
 
 ## 🧠 The Automation Flow (n8n)
-![n8n Workflow](automation_flow.jpg)
+![n8n Workflow](automation_flow.png)
 *This workflow runs every hour, checks the database for high-risk scores, and sends a Slack alert.*
 
 ## 💻 The Code Logic
-![Python Code](python_script.jpg)
+![Python Code](python_script.png)
+
+## 📸 The Dashboards
+![Dashboard](Dashboard1_youtube_project.png)
+![Dashboard](Dashboard2_youtube_project.png)
+![Dashboard](Dashboard3_youtube_project.png)
 
 ## 💡 Key Insight
 **"The Toxicity Lag":** My analysis found that views often spike 2-3 hours *before* the negative sentiment floods in. This tool catches that leading edge.
